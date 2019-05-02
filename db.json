@@ -1,0 +1,14 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "src": "http://localhost:9000/images/kitten.jpg",
+      "caption": "kitteh"
+    },
+    {
+      "src": "http://localhost:9000/images/kitten3.jpg",
+      "caption": "asd",
+      "id": 2
+    }
+  ]
+}

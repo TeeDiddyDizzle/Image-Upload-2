@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            button {
+                width: 60px;
+                height: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <p><a href="upload.html">Pictures</a></p>
+        <input type="file" id="image" onchange="conn()">
+        <br>
+        <input placeholder="caption" type="text" id="caption">
+
+        <script src="https://sdk.amazonaws.com/js/aws-sdk-2.447.0.min.js"></script>    
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+        <script src="upload.js" async defer></script>
+    </body>
+</html>
